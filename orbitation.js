@@ -11,8 +11,6 @@ export default class Orbitation {
             
         }
       
-       
-        //this.distanceBetweenCorps = delay
         
 
      }

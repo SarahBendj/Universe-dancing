@@ -34,9 +34,9 @@ export default class Star {
         let speed = 5
         let radius = 5
         //planetX is in the middle of the star 
-        let planetX = this.x*(1 +Math.random()*0.05)+ Math.cos(this.radians)*100  
+        let planetX = this.x*(1 +Math.random()*0.5)+ Math.cos(this.radians)*10 
         // the planetY is far 5 times from the star's localisation 
-        let planetY = this.y*(1 +Math.random()*0.05)+ Math.sin(this.radians)*100
+        let planetY = this.y*(1 +Math.random()*0.5)+ Math.sin(this.radians)*10
         this.orbitation.orbit(planetX , planetY , speed , radius)
     }
     
